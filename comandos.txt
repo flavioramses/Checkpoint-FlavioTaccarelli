@@ -1,0 +1,23 @@
+       git init
+       git remote add origin https://flavioramses:ghp_DcNxj ADSaJfFUSaz CSCy  QbQN   eZpQg@github.com/flavioramses/Checkpoint-FlavioTaccarelli.git
+       touch main.js
+       touch index.html
+       git add .
+       git commit -m "Primer paso"
+       git log
+       git commit --amend -m "commit 00 de FlavioTaccarelli"
+       git log
+       git push origin master
+       git branch feature
+       git checkout feature
+       mkdir Hardware Software SeguridadInformatica
+       touch Hardware/resumen.txt
+       touch Software/resumen.txt
+       touch SeguridadInformatica/resumen.txt
+       git add .
+       git commit -m "commit 0  de FlavioTaccarelli"
+       git push origin feature
+       git checkout master
+       mv main.js resumenHardware.txt     
+       mv index.html resumenSoftware.txt  
+       touch comandos.txt

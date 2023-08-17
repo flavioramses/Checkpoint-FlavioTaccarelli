@@ -1,0 +1,3 @@
+- Visual Studio Code
+- Windows
+- CorelDRAW
